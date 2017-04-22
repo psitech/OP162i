@@ -13,7 +13,7 @@ void setup()
   
   sendCommand(0x80);    // set DDRAM location 00h
   send_string("Line 1 ---------");
-  sendCommand(0xC0);    // set DDRAM location 40h [next line]
+  sendCommand(0xC0);    // set DDRAM location 40h
   send_string("Line 2 ---------");
 }
  
